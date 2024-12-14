@@ -301,7 +301,7 @@ st.session_state.titulo_2 = 'Dias Livres por Hotel - Maceió'
 st.session_state.titulo_3 = 'Dias Livres Acumulados por Hotel - Maceió'
 
 st.session_state.titulo_4 = 'Aproveitamento Dias Livres - Maceió'
-puxar_aba_simples(st.session_state.id_sheet, st.session_state.aba_sheet, 'df_config')
+
 if not 'df_config' in st.session_state:
 
     puxar_aba_simples(st.session_state.id_sheet, st.session_state.aba_sheet, 'df_config')
